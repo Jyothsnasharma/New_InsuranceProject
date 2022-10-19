@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="InsuranceProject">
+    <listeners>
+        <listener class-name="com.Insurance.utilities.Reporting"/>
+    </listeners>
+    <test name="InsuranceProjectTests">
+        <classes>
+         <!--   <class name="com.Insurance.testCases.TC_RegisterPageTest_001"/>*//-->
+            <class name="com.Insurance.testCases.TC_LogInPageTest_001"/>
+        </classes>
+    </test>
+</suite>
