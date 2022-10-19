@@ -60,6 +60,7 @@ public class Reporting extends TestListenerAdapter {
         extent.setSystemInfo("Environment", "QA");
         extent.setSystemInfo("User", "TestUser");
 
+
         htmlReporter.config().setDocumentTitle("ClipBoardHealthProject"); // Title of report
         htmlReporter.config().setReportName("Functional Test Automation Report"); // name of the report
         // htmlReporter.config()).setTestViewChartLocation(Location.class); //location
