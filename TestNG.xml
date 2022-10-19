@@ -6,7 +6,8 @@
     </listeners>
     <test name="InsuranceProjectTests">
         <classes>
-            <class name="com.Insurance.testCases.TC_RegisterPageTest_001"/>
+         <!--   <class name="com.Insurance.testCases.TC_RegisterPageTest_001"/>*//-->
+            <class name="com.Insurance.testCases.TC_LogInPageTest_001"/>
         </classes>
     </test>
 </suite>
